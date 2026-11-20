@@ -1,0 +1,340 @@
+
+/* =================================
+   NEXUS TECHNOLOGIES
+   WHITE + NEON GREEN EDITION
+================================= */
+
+:root {
+    --background: #f4f6f2;
+    --surface: #ffffff;
+    --surface-light: #e9eee6;
+    --primary: #aaff00;
+    --secondary: #82bd00;
+    --text: #202820;
+    --muted: #687267;
+    --border: rgba(40, 60, 35, 0.14);
+}
+
+body {
+    background: var(--background);
+    color: var(--text);
+}
+
+/* Fondo */
+
+.background-grid {
+    background-image:
+        linear-gradient(rgba(100, 130, 70, 0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(100, 130, 70, 0.06) 1px, transparent 1px);
+}
+
+.glow {
+    opacity: 0.10;
+}
+
+/* Header */
+
+.header {
+    background: rgba(255,255,255,0.92);
+    border-bottom: 1px solid var(--border);
+}
+
+.logo {
+    color: #202820;
+}
+
+.logo-icon {
+    background: #aaff00;
+    color: #202820;
+    box-shadow: 0 0 20px rgba(170,255,0,0.3);
+}
+
+.logo-light {
+    color: #687267;
+}
+
+.navbar a {
+    color: #526052;
+}
+
+.navbar a:hover {
+    color: #78a900;
+}
+
+.navbar .nav-contact {
+    background: #aaff00;
+    color: #202820;
+    border-color: #aaff00;
+}
+
+/* Hero */
+
+.hero {
+    background:
+        linear-gradient(90deg,
+        rgba(244,246,242,0.97) 0%,
+        rgba(244,246,242,0.87) 55%,
+        rgba(244,246,242,0.55) 100%);
+}
+
+.hero h1 {
+    color: #202820;
+}
+
+.hero h1 span,
+.section-heading h2 span,
+.about-title h2 span,
+.innovation-content h2 span,
+.contact-box h2 span {
+    background: linear-gradient(90deg, #80b900, #b7ff00);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.hero-content > p,
+.about-description p,
+.section-heading p,
+.innovation-content p {
+    color: #687267;
+}
+
+.status {
+    color: #628c00;
+    background: rgba(170,255,0,0.13);
+    border-color: rgba(120,170,0,0.3);
+}
+
+.btn-primary {
+    background: #aaff00;
+    color: #202820;
+    box-shadow: 0 5px 20px rgba(140,200,0,0.15);
+}
+
+.btn-primary:hover {
+    background: #91dc00;
+    box-shadow: 0 10px 30px rgba(140,200,0,0.3);
+}
+
+.btn-secondary {
+    color: #303a30;
+    border-color: #bdc8b7;
+}
+
+.btn-secondary:hover {
+    color: #6b9700;
+    border-color: #aaff00;
+}
+
+.hero-info strong {
+    color: #78a900;
+}
+
+.hero-info span {
+    color: #687267;
+}
+
+/* Elementos circulares */
+
+.core-circle {
+    border-color: rgba(140,190,0,0.6);
+    background: radial-gradient(
+        circle,
+        rgba(170,255,0,0.2),
+        rgba(170,255,0,0.04) 65%,
+        transparent
+    );
+
+    box-shadow:
+        0 0 50px rgba(150,220,0,0.18),
+        inset 0 0 40px rgba(150,220,0,0.12);
+}
+
+.core-symbol {
+    color: #8bc900;
+    text-shadow: 0 0 25px rgba(170,255,0,0.5);
+}
+
+.orbit {
+    border-color: rgba(130,180,0,0.3);
+}
+
+.floating-card {
+    background: rgba(255,255,255,0.92);
+    color: #526052;
+    border-color: #d8e1d1;
+    box-shadow: 0 10px 30px rgba(50,70,30,0.1);
+}
+
+/* Statement */
+
+.statement {
+    background: #e9eee6;
+    border-color: var(--border);
+}
+
+.statement p {
+    color: #596657;
+}
+
+.statement span {
+    color: #85b900;
+}
+
+/* Secciones */
+
+.section-label {
+    color: #79a900;
+}
+
+.about-title h2 {
+    color: #202820;
+}
+
+.technologies {
+    background: linear-gradient(
+        180deg,
+        transparent,
+        rgba(220,230,210,0.45),
+        transparent
+    );
+}
+
+.tech-card {
+    background: #ffffff;
+    border-color: #dce4d7;
+    box-shadow: 0 5px 20px rgba(30,50,20,0.035);
+}
+
+.tech-card:hover {
+    border-color: #aaff00;
+    box-shadow: 0 15px 40px rgba(130,180,0,0.13);
+}
+
+.tech-card.featured {
+    background: linear-gradient(
+        140deg,
+        #f0f8e5,
+        #ffffff
+    );
+}
+
+.tech-number {
+    color: #81907d;
+}
+
+.tech-icon,
+.tech-card a,
+.text-link {
+    color: #83b900;
+}
+
+.tech-card h3 {
+    color: #253025;
+}
+
+.tech-card p {
+    color: #687267;
+}
+
+/* Innovación */
+
+.graphic-ring {
+    border-color: rgba(140,190,0,0.4);
+}
+
+.graphic-center {
+    color: #83b900;
+    text-shadow: 0 0 20px rgba(170,255,0,0.4);
+}
+
+.graphic-center span {
+    color: #687267;
+}
+
+/* Contacto */
+
+.contact-box {
+    background: linear-gradient(
+        140deg,
+        #ffffff,
+        #eaf1e4
+    );
+
+    border-color: #dce4d7;
+    box-shadow: 0 15px 50px rgba(40,60,20,0.07);
+}
+
+.contact-box h2 {
+    color: #202820;
+}
+
+.contact-box > p {
+    color: #687267;
+}
+
+#contact-form input,
+#contact-form textarea {
+    color: #202820;
+    background: #ffffff;
+    border-color: #d7dfd1;
+}
+
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
+    color: #899387;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    border-color: #aaff00;
+}
+
+/* Footer */
+
+.footer {
+    background: #e6ebe2;
+    border-color: #d5ded0;
+}
+
+.footer .logo {
+    color: #202820;
+}
+
+.footer > p {
+    color: #687267;
+}
+
+.footer-bottom {
+    border-color: #d0d9ca;
+    color: #697666;
+}
+
+/* Menú móvil */
+
+@media (max-width: 650px) {
+
+    .navbar {
+        background: #ffffff;
+        border-color: #dce4d7;
+    }
+
+    .navbar a {
+        color: #303a30;
+    }
+
+    .menu-toggle {
+        color: #202820;
+    }
+
+}
+
+.hero-visual {
+    background:
+        linear-gradient(
+            rgba(244,246,242,0.35),
+            rgba(244,246,242,0.65)
+        ),
+        url("assets/circuito-verde.png") center / cover no-repeat;
+    border-radius: 12px;
+}
